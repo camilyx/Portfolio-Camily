@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Portfólio Camis</title>
+</head>
+<body>
+    <section>
+
+        <header>
+            <h2>Cami<span>Vitória</span></h2>
+
+
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">Sobre mim</a></li>
+                <li> <a href="artes.html">Artes</a></li>
+                <li> <a href="contato.html">Contato</a></li>
+            </ul>
+
+            <div class="container">
+                <div class="btn"></div>
+            </div>
+
+
+        </header>
+
+        <div class="conteudo">
+            <div class="texto">
+                <h1>Olá! Eu sou a <br><span>Camily Vitória,<br></span> designer e<br> programadora</h1>
+                
+                <div class="sobre">
+                    <h3><a href="about.html">Saiba Mais</a></h3>
+                </div>
+            </div>
+
+            <div class="img">
+                <img src="illustration.png">
+            </div>
+
+        </div>
+
+        <div class="redes">
+            <div class="github">
+                <a href="https://github.com/camilyx"><img src="github.png"></a>
+            </div>
+
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/in/camily-vit%C3%B3ria/"><img src="linkedin.png"></a>
+                </div>
+
+                <div class="instagram">
+                    <a href="https://www.instagram.com/crycamily/"><img src="instagram.png"></a>
+                </div>
+        </div>
+
+
+        
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+        
+
+            
+
+
+    </section>
+</body>
+
+<script>
+    const btn = document.querySelector('.btn');
+    const container = document.querySelector('.container');
+
+    btn.onclick = function() {
+        this.classList.toggle('active')
+        container.classList.toggle('active')
+    }
+</script>
+
+</html>
